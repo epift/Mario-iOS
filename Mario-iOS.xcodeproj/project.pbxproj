@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76807A951FA2181D001F1053 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76807A941FA2181D001F1053 /* AppDelegate.m */; };
+		76807A981FA2181D001F1053 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76807A971FA2181D001F1053 /* ViewController.m */; };
+		76807A9B1FA2181D001F1053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76807A991FA2181D001F1053 /* Main.storyboard */; };
+		76807A9D1FA2181D001F1053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76807A9C1FA2181D001F1053 /* Assets.xcassets */; };
+		76807AA01FA2181D001F1053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76807A9E1FA2181D001F1053 /* LaunchScreen.storyboard */; };
+		76807AA31FA2181D001F1053 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76807AA21FA2181D001F1053 /* main.m */; };
+		76807AAD1FA2181D001F1053 /* Mario_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76807AAC1FA2181D001F1053 /* Mario_iOSTests.m */; };
+		76807AB81FA2181D001F1053 /* Mario_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76807AB71FA2181D001F1053 /* Mario_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76807AA91FA2181D001F1053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76807A881FA2181D001F1053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76807A8F1FA2181D001F1053;
+			remoteInfo = "Mario-iOS";
+		};
+		76807AB41FA2181D001F1053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76807A881FA2181D001F1053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76807A8F1FA2181D001F1053;
+			remoteInfo = "Mario-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76807A901FA2181D001F1053 /* Mario-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mario-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76807A931FA2181D001F1053 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76807A941FA2181D001F1053 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76807A961FA2181D001F1053 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76807A971FA2181D001F1053 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76807A9A1FA2181D001F1053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76807A9C1FA2181D001F1053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76807A9F1FA2181D001F1053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76807AA11FA2181D001F1053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76807AA21FA2181D001F1053 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76807AA81FA2181D001F1053 /* Mario-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mario-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76807AAC1FA2181D001F1053 /* Mario_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mario_iOSTests.m; sourceTree = "<group>"; };
+		76807AAE1FA2181D001F1053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76807AB31FA2181D001F1053 /* Mario-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mario-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76807AB71FA2181D001F1053 /* Mario_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mario_iOSUITests.m; sourceTree = "<group>"; };
+		76807AB91FA2181D001F1053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76807A8D1FA2181D001F1053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76807AA51FA2181D001F1053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76807AB01FA2181D001F1053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76807A871FA2181D001F1053 = {
+			isa = PBXGroup;
+			children = (
+				76807A921FA2181D001F1053 /* Mario-iOS */,
+				76807AAB1FA2181D001F1053 /* Mario-iOSTests */,
+				76807AB61FA2181D001F1053 /* Mario-iOSUITests */,
+				76807A911FA2181D001F1053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76807A911FA2181D001F1053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76807A901FA2181D001F1053 /* Mario-iOS.app */,
+				76807AA81FA2181D001F1053 /* Mario-iOSTests.xctest */,
+				76807AB31FA2181D001F1053 /* Mario-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76807A921FA2181D001F1053 /* Mario-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				76807A931FA2181D001F1053 /* AppDelegate.h */,
+				76807A941FA2181D001F1053 /* AppDelegate.m */,
+				76807A961FA2181D001F1053 /* ViewController.h */,
+				76807A971FA2181D001F1053 /* ViewController.m */,
+				76807A991FA2181D001F1053 /* Main.storyboard */,
+				76807A9C1FA2181D001F1053 /* Assets.xcassets */,
+				76807A9E1FA2181D001F1053 /* LaunchScreen.storyboard */,
+				76807AA11FA2181D001F1053 /* Info.plist */,
+				76807AA21FA2181D001F1053 /* main.m */,
+			);
+			path = "Mario-iOS";
+			sourceTree = "<group>";
+		};
+		76807AAB1FA2181D001F1053 /* Mario-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				76807AAC1FA2181D001F1053 /* Mario_iOSTests.m */,
+				76807AAE1FA2181D001F1053 /* Info.plist */,
+			);
+			path = "Mario-iOSTests";
+			sourceTree = "<group>";
+		};
+		76807AB61FA2181D001F1053 /* Mario-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76807AB71FA2181D001F1053 /* Mario_iOSUITests.m */,
+				76807AB91FA2181D001F1053 /* Info.plist */,
+			);
+			path = "Mario-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76807A8F1FA2181D001F1053 /* Mario-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76807ABC1FA2181D001F1053 /* Build configuration list for PBXNativeTarget "Mario-iOS" */;
+			buildPhases = (
+				76807A8C1FA2181D001F1053 /* Sources */,
+				76807A8D1FA2181D001F1053 /* Frameworks */,
+				76807A8E1FA2181D001F1053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mario-iOS";
+			productName = "Mario-iOS";
+			productReference = 76807A901FA2181D001F1053 /* Mario-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76807AA71FA2181D001F1053 /* Mario-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76807ABF1FA2181D001F1053 /* Build configuration list for PBXNativeTarget "Mario-iOSTests" */;
+			buildPhases = (
+				76807AA41FA2181D001F1053 /* Sources */,
+				76807AA51FA2181D001F1053 /* Frameworks */,
+				76807AA61FA2181D001F1053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76807AAA1FA2181D001F1053 /* PBXTargetDependency */,
+			);
+			name = "Mario-iOSTests";
+			productName = "Mario-iOSTests";
+			productReference = 76807AA81FA2181D001F1053 /* Mario-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76807AB21FA2181D001F1053 /* Mario-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76807AC21FA2181D001F1053 /* Build configuration list for PBXNativeTarget "Mario-iOSUITests" */;
+			buildPhases = (
+				76807AAF1FA2181D001F1053 /* Sources */,
+				76807AB01FA2181D001F1053 /* Frameworks */,
+				76807AB11FA2181D001F1053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76807AB51FA2181D001F1053 /* PBXTargetDependency */,
+			);
+			name = "Mario-iOSUITests";
+			productName = "Mario-iOSUITests";
+			productReference = 76807AB31FA2181D001F1053 /* Mario-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76807A881FA2181D001F1053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Epi Ft";
+				TargetAttributes = {
+					76807A8F1FA2181D001F1053 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					76807AA71FA2181D001F1053 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76807A8F1FA2181D001F1053;
+					};
+					76807AB21FA2181D001F1053 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76807A8F1FA2181D001F1053;
+					};
+				};
+			};
+			buildConfigurationList = 76807A8B1FA2181D001F1053 /* Build configuration list for PBXProject "Mario-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76807A871FA2181D001F1053;
+			productRefGroup = 76807A911FA2181D001F1053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76807A8F1FA2181D001F1053 /* Mario-iOS */,
+				76807AA71FA2181D001F1053 /* Mario-iOSTests */,
+				76807AB21FA2181D001F1053 /* Mario-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76807A8E1FA2181D001F1053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76807AA01FA2181D001F1053 /* LaunchScreen.storyboard in Resources */,
+				76807A9D1FA2181D001F1053 /* Assets.xcassets in Resources */,
+				76807A9B1FA2181D001F1053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76807AA61FA2181D001F1053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76807AB11FA2181D001F1053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76807A8C1FA2181D001F1053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76807A981FA2181D001F1053 /* ViewController.m in Sources */,
+				76807AA31FA2181D001F1053 /* main.m in Sources */,
+				76807A951FA2181D001F1053 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76807AA41FA2181D001F1053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76807AAD1FA2181D001F1053 /* Mario_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76807AAF1FA2181D001F1053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76807AB81FA2181D001F1053 /* Mario_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76807AAA1FA2181D001F1053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76807A8F1FA2181D001F1053 /* Mario-iOS */;
+			targetProxy = 76807AA91FA2181D001F1053 /* PBXContainerItemProxy */;
+		};
+		76807AB51FA2181D001F1053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76807A8F1FA2181D001F1053 /* Mario-iOS */;
+			targetProxy = 76807AB41FA2181D001F1053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76807A991FA2181D001F1053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76807A9A1FA2181D001F1053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76807A9E1FA2181D001F1053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76807A9F1FA2181D001F1053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76807ABA1FA2181D001F1053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76807ABB1FA2181D001F1053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76807ABD1FA2181D001F1053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U3J4AC9W5;
+				INFOPLIST_FILE = "Mario-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epift.Mario-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76807ABE1FA2181D001F1053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U3J4AC9W5;
+				INFOPLIST_FILE = "Mario-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epift.Mario-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76807AC01FA2181D001F1053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U3J4AC9W5;
+				INFOPLIST_FILE = "Mario-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epift.Mario-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mario-iOS.app/Mario-iOS";
+			};
+			name = Debug;
+		};
+		76807AC11FA2181D001F1053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U3J4AC9W5;
+				INFOPLIST_FILE = "Mario-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epift.Mario-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mario-iOS.app/Mario-iOS";
+			};
+			name = Release;
+		};
+		76807AC31FA2181D001F1053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U3J4AC9W5;
+				INFOPLIST_FILE = "Mario-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epift.Mario-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mario-iOS";
+			};
+			name = Debug;
+		};
+		76807AC41FA2181D001F1053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U3J4AC9W5;
+				INFOPLIST_FILE = "Mario-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epift.Mario-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mario-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76807A8B1FA2181D001F1053 /* Build configuration list for PBXProject "Mario-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76807ABA1FA2181D001F1053 /* Debug */,
+				76807ABB1FA2181D001F1053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76807ABC1FA2181D001F1053 /* Build configuration list for PBXNativeTarget "Mario-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76807ABD1FA2181D001F1053 /* Debug */,
+				76807ABE1FA2181D001F1053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76807ABF1FA2181D001F1053 /* Build configuration list for PBXNativeTarget "Mario-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76807AC01FA2181D001F1053 /* Debug */,
+				76807AC11FA2181D001F1053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76807AC21FA2181D001F1053 /* Build configuration list for PBXNativeTarget "Mario-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76807AC31FA2181D001F1053 /* Debug */,
+				76807AC41FA2181D001F1053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76807A881FA2181D001F1053 /* Project object */;
+}
