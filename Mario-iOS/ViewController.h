@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *outputView;
+- (IBAction)clearMario:(id)sender;
+- (IBAction)runMario:(id)sender;
 
 @end
 
